@@ -17,7 +17,7 @@
         <label>Number :</label>
         <input type="text" name="identity" placeholder="ID"><br/>
         
-        <label>password</label>
+        <label>Password</label>
         <input type="password" name="values" placeholder="password"><br/>
         <input type="hidden" name="receiver" id="receiver"/>
         <input type="submit" value="Submit"/>
