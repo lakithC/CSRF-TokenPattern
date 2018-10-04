@@ -10,7 +10,7 @@
     
 </head>
 <body>
-    <h1>Login Form</h1>
+    <h1>Welcome</h1>
     You are logged in as <%=session.getAttribute("username")%>
     <form action="validate" method="POST">
         
