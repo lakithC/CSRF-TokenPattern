@@ -67,7 +67,7 @@ public class TokenVerify extends HttpServlet {
             Cookie[] cookie = servletrequest.getCookies();
             String tokens = DataSave.getData().retrieve(cookie[0].getValue());
             if (receiver.equals(tokens)) {
-                writer.println("Token has been verfied");
+                writer.println("Successfully verified !!");
             } else {
                 writer.println("Token verification has Failed");
             }
