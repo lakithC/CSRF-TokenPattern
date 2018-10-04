@@ -14,7 +14,7 @@
     You are logged in as <%=session.getAttribute("username")%>
     <form action="validate" method="POST">
         
-        <label>Number :</label>
+        <label>Identification Number :</label>
         <input type="text" name="identity" placeholder="ID"><br/>
         
         <label>Password</label>
