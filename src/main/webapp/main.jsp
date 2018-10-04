@@ -7,10 +7,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" session="true" %>
 <html>
 <head>
-    <title>Main View</title>
+    
 </head>
 <body>
-    <h1>Login Details</h1>
+    <h1>Login Form</h1>
     You are logged in as <%=session.getAttribute("username")%>
     <form action="validate" method="POST">
         
